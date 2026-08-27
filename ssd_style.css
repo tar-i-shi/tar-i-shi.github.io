@@ -1,0 +1,53 @@
+body {
+  background-color: #fbf8f4;
+  background-image:
+    linear-gradient(to right,
+      transparent 0,
+      transparent calc(50% - 620px),
+      rgba(251, 248, 244, 0.85) calc(50% - 620px),
+      rgba(251, 248, 244, 0.85) calc(50% + 620px),
+      transparent calc(50% + 620px),
+      transparent 100%),
+    url("bgssd.jpg");
+  background-size: auto, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+}
+
+h1 {
+  color: #6b5b95;
+}
+
+h3 {
+  color: #8a7ca3;
+}
+
+b#about, b#lecture, b#cpolicy, b#schedule, b#lab, b#activity, b#staff {
+  color: #6b5b95;
+}
+
+.tg-7btt, .tg-bobw {
+  font-weight: 700;
+  background-color: #c9b8e0;
+  color: #3a3048;
+  padding: 8px 12px;
+  border: 1px solid #d9cdea;
+  text-align: center;
+}
+
+.tg-c3ow, .tg-8d8j {
+  padding: 6px 12px;
+  border: 1px solid #e5dcee;
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media (max-width: 1040px) {
+  table {
+    width: 95%;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
